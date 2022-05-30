@@ -1,5 +1,6 @@
 # Pokedex
 
+https://davidpokedex.netlify.app/
 Pokedex made with PokeApi (https://pokeapi.co/), Angular, CSS, HTML.
 
 ## Development server
