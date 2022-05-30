@@ -21,13 +21,13 @@ export class PokedexComponent implements OnInit {
       .subscribe(
         data => {
           this.pokemon = data;
-
         },
         error => {
           this.pokemon = null;
-
         }
       )
+
+
   }
 
 
@@ -92,9 +92,8 @@ export class PokedexComponent implements OnInit {
         }
       )
 
-
-
   }
+
   showError() {
       swal.fire({
         icon: 'error',

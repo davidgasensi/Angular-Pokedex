@@ -5,9 +5,9 @@
 
     <div class="pokemon-container">
       <div class="d-flex justify-content-center">
-      <input type="text" class="form-control form1 ms-3 me-3" [(ngModel)]="searchedKeyword" name="filterDesc" id="filterDesc"
-        placeholder="Pikachu">
-        <i class="search-icon fa-solid fa-magnifying-glass" (click)="searchPokemon(searchedKeyword)" (submit)="searchPokemon(searchedKeyword)"></i>
+      <input type="text" id="myInput" class="form-control form1 ms-3 me-3" [(ngModel)]="searchedKeyword" name="filterDesc" id="filterDesc"
+        placeholder="Pikachu" (keydown.enter)="searchPokemon(searchedKeyword)">
+        <i class="search-icon fa-solid fa-magnifying-glass" (click)="searchPokemon(searchedKeyword)"></i>
       </div>
       <h1 class="mt-3">#{{pokemon.id}} - {{pokemon.name | titlecase}}</h1>
 
