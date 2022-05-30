@@ -1,6 +1,6 @@
 # Pokedex
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+Pokedex made with PokeApi (https://pokeapi.co/), Angular, CSS, HTML.
 
 ## Development server
 
