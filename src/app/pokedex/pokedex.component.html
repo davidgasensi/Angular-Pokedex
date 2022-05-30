@@ -24,8 +24,13 @@
             style="float : right;">{{stat.base_stat}}</span></p>
         <!-- <p calss="base-stat">{{stat.base_stat}}</p> -->
       </ul>
+
+      <button class="previous-mobile me-5" title="Previous Pokemon" [disabled]="pokemonID == 1" (click)="previousPokemon()"><i
+        class="fa-solid fa-angle-left"></i></button>
       <button class="random" title="Random Pokemon" (click)="randomPokemon()"><i
           class="fa-solid fa-shuffle"></i></button>
+      <button class="next-mobile ms-5" title="Next Pokemon" [disabled]="pokemonID == 898" (click)="nextPokemon()"><i
+          class="fa-solid fa-angle-right"></i></button>
     </div>
 
     <div class="">

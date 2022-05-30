@@ -28,7 +28,7 @@ const APP_ROUTES: Route[] = [
   imports: [
     BrowserModule,
     RouterModule,
-    RouterModule.forRoot(APP_ROUTES, {useHash:true}),
+    RouterModule.forRoot(APP_ROUTES, {useHash:false}),
     HttpClientModule,
     MatSlideToggleModule,
     BrowserAnimationsModule,

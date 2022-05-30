@@ -30,6 +30,7 @@ input{
 .pokemon-container {
   width: 25em;
   max-width: 25em;
+  min-width: 25em;
   background-color: #dfe4ea;
   padding: 3rem;
   padding-bottom: 1.5rem;
@@ -57,6 +58,25 @@ input{
   overflow: hidden;
   outline: none;
   font-size: 2.5rem;
+}
+.next-mobile, .previous-mobile{
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .next-mobile, .previous-mobile {
+    display: inline;
+    background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 2.5rem;
+  }
+  .next, .previous{
+    display: none;
+  }
 }
 
 .pokemon-img {
